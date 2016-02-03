@@ -27,7 +27,7 @@ body {
   padding: 5px;
 }
 
-section {
+.all-boxes {
   display: inline-block;
   width: 600px;
 }
