@@ -38,9 +38,9 @@ body {
   border-style: solid;
   border-width: 5px;
   border-radius: 100%;
-  border-color: #0084b4;
+  border-color: #3594cb;
   display: inline-block;
-  background: #00aced;
+  background: #47a3da;
   padding: 10px;
   width: 15px;
 }
@@ -54,10 +54,18 @@ body {
   border-width: 5px;
   border-radius: 10px;
   margin: 20px;
-  background: #00aced;
+  /*background: #3594cb;*/
   padding: 45px;
   color: white;
   line-height: 125%;
+}
+
+.light {
+  background: #6cbfee;
+}
+
+.dark {
+  background: #3594cb;
 }
 
 .all-boxes {
@@ -67,9 +75,9 @@ body {
 .thin-line {
   border-style: none;
   border-width: 2px;
-  width: 15px;
-  height: 200%;
-  background: #0084b4;
+  width: 10px;
+  height: 1300px;
+  background: #6cbfee;
   margin-left: 15px;
   /*margin: 0% 70% 0% 30%;*/
   display: inline-block;
@@ -77,9 +85,8 @@ body {
 
 h1 {
   font-size: 25px;
-  border-style: solid;
-  border-width: 1px;
-  padding: 10px;
+  border-bottom: 1px solid;
+  padding: 10px 10px 20px 0px;
   border-color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
