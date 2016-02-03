@@ -2,8 +2,29 @@ body {
   font: sans serif;
 }
 
-div {
+.info-box {
+  border-width: 5px;
+  border-radius: 10px;
+  margin: 5% 12.5% 5% 37.5%;
+  background: #00aced;
+  padding: 25px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 125%;
+}
+
+.thin-line {
   border-style: solid;
   border-width: 5px;
-  margin: 10% 30%;
+  width: 10px;
+  height: 100%;
+  background: #0084b4;
+  margin: 0% 70% 0% 30%;
+}
+
+h1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  margin-bottom: 20px;
 }
