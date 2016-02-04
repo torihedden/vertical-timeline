@@ -69,6 +69,8 @@ body {
   border-width: 5px;
   border-radius: 10px;
   margin: 20px;
+  margin-left: 0px;
+  margin-top: 0px;
   /*background: #3594cb;*/
   padding: 45px;
   color: white;
@@ -91,6 +93,10 @@ body {
   color: #3594cb;
 }
 
+.no-bottom {
+  margin-bottom: 0px;
+}
+
 .thin-line {
   border-style: none;
   border-width: 2px;
@@ -111,3 +117,16 @@ h1 {
 i {
   color: white;
 }
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right:10px solid #3594cb;
+  display: inline-block;
+}
+
+
+/*arrow-left code based on tutorial @ https://css-tricks.com/snippets/css/css-triangle/*/
+/*I can't take credit for this piece of code*/
