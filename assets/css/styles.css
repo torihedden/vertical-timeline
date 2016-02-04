@@ -2,6 +2,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.all-circle {
+  display: inline-block;
+  height: 1000px;
+}
+/*delete this class if breaks, and on line 63*/
+
+.with-margin {
+  margin-top: 250px;
+}
+
 .all-date-time {
   display: inline-block;
   margin-left: 170px;
@@ -39,7 +49,7 @@ body {
   border-width: 10px;
   border-radius: 100%;
   border-color: #6cbfee;
-  display: inline-block;
+  display: block;
   background: #47a3da;
   padding: 10px;
   width: 33px;
