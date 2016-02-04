@@ -4,7 +4,7 @@ body {
 
 .all-date-time {
   display: inline-block;
-  margin-left: 200px;
+  margin-left: 170px;
 }
 
 .date-time {
@@ -27,7 +27,7 @@ body {
 }
 
 .time {
-  border-style: solid;
+  border-style: none;
   border-width: 1px;
   display: block;
   padding: 5px;
@@ -36,19 +36,22 @@ body {
 
 .circle-icon {
   border-style: solid;
-  border-width: 5px;
+  border-width: 10px;
   border-radius: 100%;
-  border-color: #3594cb;
+  border-color: #6cbfee;
   display: inline-block;
   background: #47a3da;
   padding: 10px;
   width: 15px;
-  margin-left: 45px;
+  margin-left: 55px;
 }
 
 .all-boxes {
-  display: inline-block;
   width: 700px;
+  display: inline-block;
+  border-left: 12px #6cbfee;
+  border-style: solid;
+  padding-left: 30px;
 }
 
 .info-box {
@@ -69,10 +72,12 @@ body {
   background: #3594cb;
 }
 
-.all-boxes {
-  display: inline-block;
-  border-left: 12px #6cbfee;
-  border-style: solid;
+.light-text {
+  color: #6cbfee;
+}
+
+.dark-text {
+  color: #3594cb;
 }
 
 .thin-line {
