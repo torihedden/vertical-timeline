@@ -43,6 +43,7 @@ body {
   background: #47a3da;
   padding: 10px;
   width: 15px;
+  margin-left: 45px;
 }
 
 .all-boxes {
@@ -70,17 +71,16 @@ body {
 
 .all-boxes {
   display: inline-block;
-  border-left: 10px #6cbfee;
+  border-left: 12px #6cbfee;
   border-style: solid;
 }
 
 .thin-line {
   border-style: none;
   border-width: 2px;
-  width: 10px;
+  width: 0px;
   height: 1300px;
   background: white;
-  margin-left: 15px;
   display: inline-block;
 }
 
